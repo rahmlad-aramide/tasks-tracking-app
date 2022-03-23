@@ -112,7 +112,7 @@ img {
     flex-direction: column;
 }
 .remove-div{
-    display: none;
+    display: flex;
     justify-content: flex-end;
 
 }
@@ -120,7 +120,7 @@ img {
     transform: rotate(45deg);
     cursor: pointer;
 }
-.hide{
+.show{
     display: flex;
 }
 .form-title {
