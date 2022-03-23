@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script defer src="https://kit.fontawesome.com/b906c06057.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -25,14 +26,14 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="new-tasks">
             <div class="new-task n-t-head">
                 <div class="task">
                     <h3 class="task-head">Add new Tasks:</h3>
                 </div>
-                <div class="plus-btn">
-                    <img src="icons/plus.png" alt="">
+                <div class="plus-btn add-btn">
+                    <img src="icons/plus.png" class="add-icon" alt="">
                 </div>
             </div>
             <div class="new-task">
@@ -122,5 +123,20 @@
             </div>
         </div>
     </main>
+    <!-- Transparent Overlay -->
+    <div class="overlay">
+    </div>
+    
+    <!-- Add task form -->
+    <div class="add-form">
+        <div class="remove-div">
+            <img src="icons/plus.png" class="remove-icon" alt="">
+        </div>
+        <label for="title" class="form-title">Title</label> 
+        <input type="text" id="title" class="title">
+        <label for="description" class="form-title">Description</label>
+        <textarea type="text" id="description" class="description"> </textarea>
+        <button class="form-btn">Add</button>
+    </div>
 </body>
 </html>
