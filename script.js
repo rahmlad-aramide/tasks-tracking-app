@@ -5,8 +5,8 @@ const overlay = document.querySelector(".overlay");
 const removeBtn = document.querySelector(".remove-icon");
 
 const toggleShow = function(){
-    form.classList.toggle("hide");
-    overlay.classList.toggle("hide");
+    form.classList.toggle("show");
+    overlay.classList.toggle("show");
     console.log("clicked");
 }
 addBtn.addEventListener('click', toggleShow);

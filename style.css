@@ -97,7 +97,7 @@ img {
     top: 0;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
 }
 
 .add-form {
@@ -108,11 +108,11 @@ img {
     width: 30%;
     padding: 2%;
     left: 50%;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 .remove-div{
-    display: flex;
+    display: none;
     justify-content: flex-end;
 
 }
@@ -121,7 +121,7 @@ img {
     cursor: pointer;
 }
 .hide{
-    display: none;
+    display: flex;
 }
 .form-title {
     font-weight: bold;
